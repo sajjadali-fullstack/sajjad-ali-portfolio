@@ -19,20 +19,6 @@ Seeing is believing! You can explore the live version of my portfolio by clickin
 
 ---
 
-## 🌟 Featured Projects
-
-* **GenZKart:** A feature-rich E-commerce platform built with Django and MySQL.
-* **NewsSphere:** A real-time news portal using Flask and Jinja2 templates.
-* **Python Logic Series:** Daily challenge repository focused on solving complex algorithms.
-
----
-
-## 📊 GitHub Stats
-![Sajjad's GitHub stats](https://github-readme-stats.vercel.app/api?username=sajjadali-fullstack&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sajjadali-fullstack&layout=compact&theme=radical)
-
----
-
 ## 📫 Connect with Me
 
 - 💼 **LinkedIn:** [linkedin.com/in/sajjadali](https://www.linkedin.com/in/mohdnavaid/)
@@ -40,5 +26,5 @@ Seeing is believing! You can explore the live version of my portfolio by clickin
 - 📍 **Location:** Mumbra, Mumbai / Thane
 
 ---
-*Built with ❤️ and a lot of Python code.*
+***Crafted with ❤️ and clean code.***
 
