@@ -15,7 +15,7 @@ A sleek, responsive, and professional portfolio website designed to showcase my 
 ## 🌐 Live Preview
 Seeing is believing! You can explore the live version of my portfolio by clicking the button below:
 
-[![View Live Portfolio](https://img.shields.io/badge/LIVE_DEMO-Check%20it%20Out-success?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sajjadali-fullstack.github.io/sajjad-ali-portfolio/)
+[![View Live Portfolio](https://sajjadali-fullstack.github.io/sajjad-ali-portfolio/)
 
 ---
 
