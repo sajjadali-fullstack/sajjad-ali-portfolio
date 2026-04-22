@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajjad Ali | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- animations -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">SA</a>
+            <ul class="nav-links">
+                <li><a href="#summary">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- Container -->
+    <div class="container">
+        <!-- 
+            MARK: Header
+        -->
+        <header>
+            <img src="https://t4.ftcdn.net/jpg/09/62/87/53/360_F_962875390_hlfrzLawHaC0sycJTtkwYuSksPgVDnKY.jpg"
+                alt="Profile pic" width="120" height="120">
+
+            <h1>Sajjad Ali</h1>
+            <p><strong>Full Stack Developer | Python Enthusiast</strong></p>
+        </header>
+
+<!-- Section-1 -->
+        <section>
+            <h2 class="section-title">Professional Summary</h2>
+            <p>I am a Full Stack Developer focused on building clean, scalable web applications. My expertise lies in
+                Python, Django, and modern frontend technologies, with a passion for solving complex logic and helping
+                the developer community.</p>
+        </section>
+
+<!-- Section-2 -->
+        <section>
+            <h2 class="section-title">Technical Skills</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <ul>
+                    <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap</li>
+                    <li><strong>Backend:</strong> Python, Django, Flask</li>
+                </ul>
+                <ul>
+                    <li><strong>Database:</strong> MySQL, PostgreSQL</li>
+                    <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+                </ul>
+            </div>
+        </section>
+<!-- Section-3 -->
+        <section>
+            <h2 class="section-title">Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Commerce (B.Com)</td>
+                        <td>Mumbai University</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Full Stack Development</td>
+                        <td>Professional Institute (Thane)</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+<!-- Section-4 -->
+        <section>
+            <h2 class="section-title">Featured Projects</h2>
+            <ul>
+                <li><strong>GenZKart:</strong> A high-performance E-commerce platform built with Django.</li>
+                <li><strong>NewsSphere:</strong> Real-time news portal using Flask and Jinja2.</li>
+                <li><strong>Python Logic Series:</strong> Daily logic-building challenge repository on GitHub.</li>
+            </ul>
+        </section>
+
+<!-- Section-5 -->
+        <section id="certificates">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-details">
+                        <h3>Full Stack Python Development</h3>
+                        <p>Professional Training Institute, Thane</p>
+                        <span class="cert-date">Issued: 2026</span>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-award"></i></div>
+                    <div class="cert-details">
+                        <h3>Django & REST Framework</h3>
+                        <p>Industry-Level Certification</p>
+                        <span class="cert-date">Issued: 2026</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- Section-6 -->
+        <section id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>Feel free to reach out! Whether you have a question or just want to say hi, I'll try my best to get back
+                to you.</p>
+
+            <form action="https://formspree.io/f/myklnqew" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </section>
+<!-- 
+        MARK: Footer
+         -->
+        <footer>
+            <div class="footer-left">
+                <img src="https://t4.ftcdn.net/jpg/09/62/87/53/360_F_962875390_hlfrzLawHaC0sycJTtkwYuSksPgVDnKY.jpg"
+                    alt="Mohd Navaid">
+                <div class="author-info">
+                    <h4>Mohd Navaid</h4>
+                    <p>Full Stack Python Developer</p>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <a href="https://github.com/mohdnavaid" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohdnavaid/" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:navaidmails@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </footer>
+    </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
