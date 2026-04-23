@@ -28,7 +28,10 @@ Seeing is believing! You can explore the live version of my portfolio by clickin
 <a href="mailto:sajjadali.dev01@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
-- 📍 **Location:** Mumbra, Mumbai / Thane
+
+<a href="https://www.google.com/maps/search/Mumbra,+Thane" target="_blank">
+  <img src="https://img.shields.io/badge/Location-Mumbra%2C%20Thane-%23EA4335?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location">
+</a>
 
 ---
 ***Crafted with ❤️ and clean code.***
