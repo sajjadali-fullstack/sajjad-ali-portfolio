@@ -21,8 +21,9 @@ Seeing is believing! You can explore the live version of my portfolio by clickin
 
 ## 📫 Connect with Me
 
-- 💼 **LinkedIn:** [linkedin.com/in/sajjadali](https://www.linkedin.com/in/sajjadali-fullstack/)
-- 📧 **Email:** sajjadali.dev01@gmail.com
+- 💼 **LinkedIn:** <a href="https://www.linkedin.com/in/sajjadali-fullstack/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                                                                                                                      \
+- 📧 **Email:** <a href="mailto:sajjadali.dev01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
 - 📍 **Location:** Mumbra, Mumbai / Thane
 
 ---
