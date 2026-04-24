@@ -343,3 +343,79 @@ section {
     background-color: rgba(0, 115, 230, 0.1);
     border: none;
 }
+
+
+/* Client */
+
+
+
+
+
+
+
+/* Work */
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.work-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: #ffd700; /* Theme accent color */
+}
+
+.tags span {
+    font-size: 12px;
+    background: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: #555;
+}
+
+.view-project {
+    display: inline-block;
+    margin-top: 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* GitHub Stats */
+
+.github-analytics-container img {
+    max-width: 100%;
+    height: auto; /* Aspect ratio maintain rakhta hai */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: block; /* Gap issues door karne ke liye */
+}
+
+.github-analytics-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile par images thodi choti aur center dikhein */
+@media (max-width: 600px) {
+    .github-analytics-container {
+        padding: 10px;
+    }
+    .github-analytics-container img {
+        width: 100%; /* Mobile par full width le lega */
+    }
+}
