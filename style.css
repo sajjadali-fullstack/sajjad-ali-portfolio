@@ -570,3 +570,66 @@ section {
         width: 100%; /* Mobile par full width le lega */
     }
 }
+
+/* bages LIVE */
+/* Container ko relative banana zaroori hai taaki badge iske kone mein rahe */
+.work-content {
+    position: relative;
+    padding-top: 25px; /* Badge ke liye thodi jagah */
+}
+
+/* Common Badge Styling */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Green Live Badge */
+.live-badge {
+    background-color: rgba(40, 167, 69, 0.2);
+    /* background-color: #C63837; */
+    color: #28a745;
+    color: #C63837;
+    border: 1px solid #28a745;
+    animation: pulse-green 2s infinite;
+}
+
+/* GitHub/Static Badge Style */
+.github-badge {
+    background-color: rgba(108, 117, 125, 0.2);
+    color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+/* Live blinking effect */
+@keyframes pulse-green {
+    0% {
+        box-shadow: 0 0 0 0 rgba(24, 187, 78, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 6px rgba(40, 167, 69, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .work-content {
+        padding-top: 35px; /* Mobile par title ko badge se niche dhakelne ke liye */
+    }
+
+    .badge {
+        font-size: 0.65rem; /* Chhoti screen par badge ka size thoda kam */
+        top: 8px;
+        right: 8px;
+    }
+}
