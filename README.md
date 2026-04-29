@@ -15,7 +15,8 @@ A sleek, responsive, and professional portfolio website designed to showcase my 
 ## 🌐 Live Preview
 Seeing is believing! You can explore the live version of my portfolio by clicking the button below:
 
-**[🔗 Click Here to View Live Portfolio](https://sajjadali-fullstack.github.io/sajjad-ali-portfolio/)**
+**[🔗 Click Here to View Live Portfolio Github](https://sajjadali-fullstack.github.io/sajjad-ali-portfolio/)**
+**[🔗 Click Here to View Live Portfolio Netlify](https://sajjadali-fullstack-portfolio.netlify.app/)**
 
 ---
 
