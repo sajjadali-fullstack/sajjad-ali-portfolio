@@ -633,3 +633,55 @@ section {
         right: 8px;
     }
 }
+
+
+
+/* check */
+
+.stats-card {
+    background: #ffffff;
+    border-left: 5px solid #3b82f6;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    
+    /* Responsive Width Logic */
+    width: 90%;          /* Mobile par side se thodi jagah chhode ga */
+    max-width: 400px;    /* Laptop par 400px se bada nahi hoga */    
+    margin: 20px auto;   /* auto lagane se card center mein rahega */
+    transition: transform 0.3s ease;
+}
+
+
+
+.metric-bold{
+    font-weight: 800;
+    color: #1e293b;
+    transition: color 0.3s ease;
+}
+
+.stats-card:hover .metric-bold {
+    color: #2563eb; /* Hover pe number ka color bhi change hoga */
+}
+
+.headline-metric{
+    color:#286EED;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Mobile Screens ke liye adjustment */
+@media (max-width: 480px) {
+    .metric-bold {
+        font-size: 2rem;    /* Mobile par text thoda chota ho jayega */
+    }
+    .headline-metric {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color:#286EED;
+    }
+    .stats-card {
+        padding: 15px;      /* Mobile par andar ki jagah thodi kam */
+    }
+}
